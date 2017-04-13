@@ -23,9 +23,9 @@
 	<key>MinimumOSVersion</key>
 	<string>8.0</string>
 	<key>CFBundleDisplayName</key>
-	<string>Résultat Lotto France</string>
+	<string>Résultat Loto France</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.fdj.lotto</string>
+	<string>com.fdj.loto</string>
 	<key>CFBundleVersion</key>
 	<string>1.0</string>
 	<key>CFBundleIconFiles</key>

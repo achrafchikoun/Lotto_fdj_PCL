@@ -13,7 +13,7 @@ namespace Lotto_fdj_PCL
         {
             InitializeComponent();
 
-            MainPage = new Lotto_fdj_PCL.MainPage();
+            MainPage = new Lotto_fdj_PCL.SplashPage();
         }
 
         protected override void OnStart()

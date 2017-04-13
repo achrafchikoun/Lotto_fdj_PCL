@@ -89,6 +89,8 @@
     <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="AdBanner_iOS.cs" />
+    <Compile Include="AdInterstitial_iOS.cs" />
     <Compile Include="Main.cs" />
     <Compile Include="AppDelegate.cs" />
     <None Include="Entitlements.plist" />
@@ -172,6 +174,30 @@
       <Project>{a62cf8f2-1af3-4d65-95f4-159f82a7ff21}</Project>
       <Name>Lotto_fdj_PCL</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\calendar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\euromillions.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\jeu_responsable.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\joker.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\keno.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\loto.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\num_chance.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\star.png" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <Import Project="..\..\packages\Xamarin.Forms.2.3.3.193\build\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+Xamarin.iOS10+xamarinmac20\Xamarin.Forms.targets" Condition="Exists('..\..\packages\Xamarin.Forms.2.3.3.193\build\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+Xamarin.iOS10+xamarinmac20\Xamarin.Forms.targets')" />
