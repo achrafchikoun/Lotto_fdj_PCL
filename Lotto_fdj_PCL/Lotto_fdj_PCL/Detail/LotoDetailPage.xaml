@@ -1,5 +1,26 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="Lotto_fdj_PCL.Detail.LotoDetailPage">
+             x:Class="Lotto_fdj_PCL.Detail.LotoDetailPage"
+             xmlns:Ad="clr-namespace:Lotto_fdj_PCL.AdMob;assembly=Lotto_fdj_PCL"
+             BackgroundColor="White"
+             Title="Loto - Détail">
+    <StackLayout VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
+        <ScrollView>
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="50" />
+                    <RowDefinition Height="600" />
+                </Grid.RowDefinitions>
+                <Image Source="loto.png" Aspect="AspectFit" WidthRequest="150" HorizontalOptions="Center" Margin="0, 10, 0, 0" Grid.Row="0"/>
+                <WebView Source="http://achrafchikoun.com/fdj_details/details_loto.html" Margin="5, 10, 5, 0" Grid.Row="1"/>
+            </Grid>
+        </ScrollView>
+
+        <!-- AdMob banner START -->
+        <StackLayout Orientation="Horizontal" VerticalOptions="EndAndExpand" HorizontalOptions="Center">
+            <Ad:AdBanner Size="SmartBannerPortrait" HorizontalOptions="Center" VerticalOptions="End"/>
+        </StackLayout>
+        <!-- AdMob banner END -->
+    </StackLayout>
 </ContentPage>
