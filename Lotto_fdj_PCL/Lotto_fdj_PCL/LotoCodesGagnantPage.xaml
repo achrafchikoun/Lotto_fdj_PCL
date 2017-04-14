@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Lotto_fdj_PCL.LotoCodesGagnantPage"
+             xmlns:Ad="clr-namespace:Lotto_fdj_PCL.AdMob;assembly=Lotto_fdj_PCL"
+             Title="Loto - 10 codes gagnants">
+
+    <StackLayout VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
+        <ScrollView VerticalOptions="Start">
+            <StackLayout Orientation="Vertical" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Margin="5, 10, 5, 0">
+
+
+                <Frame Padding="1, 1, 1, 1" BackgroundColor="#243f85" VerticalOptions="Center" HeightRequest="35" WidthRequest="110" Margin="0, 15, 0, 0">
+                    <Label x:Name="loto_n1_g" Text="- ---- ----" TextColor="#243f85" FontSize="18" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" BackgroundColor="White" HeightRequest="34" HorizontalOptions="FillAndExpand" />
+                </Frame>
+
+                <Frame Padding="1, 1, 1, 1" BackgroundColor="#243f85" VerticalOptions="Center" HeightRequest="35" WidthRequest="110" Margin="0, 15, 0, 0">
+                    <Label x:Name="loto_n2_g" Text="- ---- ----" TextColor="#243f85" FontSize="18" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" BackgroundColor="White" HeightRequest="34" HorizontalOptions="FillAndExpand" />
+                </Frame>
+
+                <Frame Padding="1, 1, 1, 1" BackgroundColor="#243f85" VerticalOptions="Center" HeightRequest="35" WidthRequest="110" Margin="0, 15, 0, 0">
+                    <Label x:Name="loto_n3_g" Text="- ---- ----" TextColor="#243f85" FontSize="18" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" BackgroundColor="White" HeightRequest="34" HorizontalOptions="FillAndExpand" />
+                </Frame>
+
+                <Frame Padding="1, 1, 1, 1" BackgroundColor="#243f85" VerticalOptions="Center" HeightRequest="35" WidthRequest="110" Margin="0, 15, 0, 0">
+                    <Label x:Name="loto_n4_g" Text="- ---- ----" TextColor="#243f85" FontSize="18" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" BackgroundColor="White" HeightRequest="34" HorizontalOptions="FillAndExpand" />
+                </Frame>
+
+                <Frame Padding="1, 1, 1, 1" BackgroundColor="#243f85" VerticalOptions="Center" HeightRequest="35" WidthRequest="110" Margin="0, 15, 0, 0">
+                    <Label x:Name="loto_n5_g" Text="- ---- ----" TextColor="#243f85" FontSize="18" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" BackgroundColor="White" HeightRequest="34" HorizontalOptions="FillAndExpand" />
+                </Frame>
+
+                <Frame Padding="1, 1, 1, 1" BackgroundColor="#243f85" VerticalOptions="Center" HeightRequest="35" WidthRequest="110" Margin="0, 15, 0, 0">
+                    <Label x:Name="loto_n6_g" Text="- ---- ----" TextColor="#243f85" FontSize="18" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" BackgroundColor="White" HeightRequest="34" HorizontalOptions="FillAndExpand" />
+                </Frame>
+
+                <Frame Padding="1, 1, 1, 1" BackgroundColor="#243f85" VerticalOptions="Center" HeightRequest="35" WidthRequest="110" Margin="0, 15, 0, 0">
+                    <Label x:Name="loto_n7_g" Text="- ---- ----" TextColor="#243f85" FontSize="18" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" BackgroundColor="White" HeightRequest="34" HorizontalOptions="FillAndExpand" />
+                </Frame>
+
+                <Frame Padding="1, 1, 1, 1" BackgroundColor="#243f85" VerticalOptions="Center" HeightRequest="35" WidthRequest="110" Margin="0, 15, 0, 0">
+                    <Label x:Name="loto_n8_g" Text="- ---- ----" TextColor="#243f85" FontSize="18" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" BackgroundColor="White" HeightRequest="34" HorizontalOptions="FillAndExpand" />
+                </Frame>
+
+                <Frame Padding="1, 1, 1, 1" BackgroundColor="#243f85" VerticalOptions="Center" HeightRequest="35" WidthRequest="110" Margin="0, 15, 0, 0">
+                    <Label x:Name="loto_n9_g" Text="- ---- ----" TextColor="#243f85" FontSize="18" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" BackgroundColor="White" HeightRequest="34" HorizontalOptions="FillAndExpand" />
+                </Frame>
+
+                <Frame Padding="1, 1, 1, 1" BackgroundColor="#243f85" VerticalOptions="Center" HeightRequest="35" WidthRequest="110" Margin="0, 15, 0, 0">
+                    <Label x:Name="loto_n10_g" Text="- ---- ----" TextColor="#243f85" FontSize="18" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" BackgroundColor="White" HeightRequest="34" HorizontalOptions="FillAndExpand" />
+                </Frame>
+
+
+            </StackLayout>
+        </ScrollView>
+
+        <!-- AdMob banner START -->
+        <StackLayout Orientation="Horizontal" VerticalOptions="EndAndExpand" HorizontalOptions="Center">
+            <Ad:AdBanner Size="SmartBannerPortrait" HorizontalOptions="Center" VerticalOptions="End"/>
+        </StackLayout>
+        <!-- AdMob banner END -->
+    </StackLayout>
+
+</ContentPage>

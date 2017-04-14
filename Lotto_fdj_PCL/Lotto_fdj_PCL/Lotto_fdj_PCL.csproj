@@ -40,7 +40,34 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Detail\EuromillionsDetailPage.xaml.cs">
+      <DependentUpon>EuromillionsDetailPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Detail\JokerDetailPage.xaml.cs">
+      <DependentUpon>JokerDetailPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Detail\KenoDetailPage.xaml.cs">
+      <DependentUpon>KenoDetailPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Detail\LotoDetailPage.xaml.cs">
+      <DependentUpon>LotoDetailPage.xaml</DependentUpon>
+    </Compile>
     <Compile Include="GlobalVariable.cs" />
+    <Compile Include="Historique\EuromillionsHistoriquePage.xaml.cs">
+      <DependentUpon>EuromillionsHistoriquePage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Historique\JokerHistoriquePage.xaml.cs">
+      <DependentUpon>JokerHistoriquePage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Historique\KenoHistoriquePage.xaml.cs">
+      <DependentUpon>KenoHistoriquePage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Historique\LotoHistoriquePage.xaml.cs">
+      <DependentUpon>LotoHistoriquePage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="LotoCodesGagnantPage.xaml.cs">
+      <DependentUpon>LotoCodesGagnantPage.xaml</DependentUpon>
+    </Compile>
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
@@ -96,6 +123,60 @@
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="SplashPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Detail\LotoDetailPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Detail\EuromillionsDetailPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Detail\KenoDetailPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Detail\JokerDetailPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Historique\LotoHistoriquePage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Historique\EuromillionsHistoriquePage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Historique\KenoHistoriquePage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Historique\JokerHistoriquePage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="LotoCodesGagnantPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
       <SubType>Designer</SubType>
     </EmbeddedResource>
