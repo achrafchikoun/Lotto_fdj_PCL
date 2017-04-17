@@ -13,7 +13,11 @@ namespace Lotto_fdj_PCL
         {
             InitializeComponent();
 
-            MainPage = new Lotto_fdj_PCL.SplashPage();
+            MainPage = new NavigationPage(new MainPage())
+            {
+                BarBackgroundColor = Color.FromHex("#243f85"),
+                BarTextColor = Color.White,
+            };
         }
 
         protected override void OnStart()

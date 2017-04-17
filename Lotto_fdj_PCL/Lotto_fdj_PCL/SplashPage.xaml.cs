@@ -20,9 +20,9 @@ namespace Lotto_fdj_PCL
         {
             InitializeComponent();
 
-            timer = DependencyService.Get<IAdvancedTimer>();
+            /*timer = DependencyService.Get<IAdvancedTimer>();
             timer.initTimer(3000, timerElapsed, true);
-            timer.startTimer();
+            timer.startTimer();*/
         }
 
         private void timerElapsed(object sender, EventArgs e)

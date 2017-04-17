@@ -23,7 +23,7 @@ namespace Lotto_fdj_PCL.iOS
         public override bool FinishedLaunching(UIApplication app, NSDictionary options)
         {
             global::Xamarin.Forms.Forms.Init();
-            AdvancedTimer.Forms.Plugin.iOS.AdvancedTimerImplementation.Init();
+            //AdvancedTimer.Forms.Plugin.iOS.AdvancedTimerImplementation.Init();
             LoadApplication(new App());
 
             return base.FinishedLaunching(app, options);

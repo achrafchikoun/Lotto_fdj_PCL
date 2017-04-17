@@ -22,13 +22,18 @@ namespace Lotto_fdj_PCL
         {
             InitializeComponent();
 
+            NavigationPage.SetBackButtonTitle(this, "");
+
             GlobalVariable.count++;
 
             adInterstitial = DependencyService.Get<IAdInterstitial>();
 
             adInterstitial.ShowAd();
 
-            callAPI();
+            Device.BeginInvokeOnMainThread(() =>
+            {
+                callAPI();
+            });
         }
 
         private async Task callAPI()
