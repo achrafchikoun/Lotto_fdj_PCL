@@ -28,10 +28,8 @@
                                 <Label Text="{Binding n6}" TextColor="White" FontSize="23" FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" WidthRequest="35" MinimumWidthRequest="35" HeightRequest="35" MinimumHeightRequest="35" BackgroundColor="#d82f34" Margin="3, 0, 0, 0"/>
                             </StackLayout>
                             <StackLayout Orientation="Horizontal" Margin="5, 10, 5, 15" HorizontalOptions="Center">
-                                <Label Text="JOKER+® " TextColor="#243f85" FontSize="18" VerticalOptions="Center" Margin="0, 0, 10, 0"/>
-                                <Frame Padding="1, 1, 1, 1" BackgroundColor="#d82f34" VerticalOptions="Center" HeightRequest="35" MinimumHeightRequest="35" WidthRequest="110">
-                                    <Label Text="{Binding joker}" TextColor="#243f85" FontSize="18" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" BackgroundColor="White" HeightRequest="34" MinimumHeightRequest="34" HorizontalOptions="FillAndExpand" />
-                                </Frame>
+                                <Label Text="JOKER+® :" TextColor="#243f85" FontSize="16" VerticalOptions="Center" Margin="0, 0, 5, 0"/>
+                                <Label Text="{Binding joker}" TextColor="#d82f34" FontSize="18" FontAttributes="Bold" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" BackgroundColor="White" HeightRequest="34" MinimumHeightRequest="34" HorizontalOptions="FillAndExpand" />
                             </StackLayout>
                         </StackLayout>
 

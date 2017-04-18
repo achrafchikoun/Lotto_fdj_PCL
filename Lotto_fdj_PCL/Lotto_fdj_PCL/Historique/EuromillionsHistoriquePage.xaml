@@ -28,10 +28,8 @@
                                 <Label Text="{Binding n7}" TextColor="White" FontSize="23" FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" WidthRequest="35" MinimumWidthRequest="35" HeightRequest="35" MinimumHeightRequest="35" BackgroundColor="#f6b220" Margin="3, 0, 0, 0"/>
                             </StackLayout>
                             <StackLayout Orientation="Horizontal" Margin="5, 10, 5, 15" HorizontalOptions="Center">
-                                <Label Text="MY MILLION " TextColor="#243f85" FontSize="18" VerticalOptions="Center" Margin="0, 0, 10, 0"/>
-                                <Frame Padding="1, 1, 1, 1" BackgroundColor="#f6b220" VerticalOptions="Center" HeightRequest="35" WidthRequest="120">
-                                    <Label Text="{Binding my_million}" TextColor="#243f85" FontSize="18" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" BackgroundColor="White" HeightRequest="34" HorizontalOptions="FillAndExpand" />
-                                </Frame>
+                                <Label Text="MY MILLION :" TextColor="#243f85" FontSize="16" VerticalOptions="Center" Margin="0, 0, 10, 0"/>
+                                <Label Text="{Binding my_million}" TextColor="#f6b220" FontSize="18" FontAttributes="Bold" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" BackgroundColor="White" HeightRequest="34" HorizontalOptions="FillAndExpand" />
                             </StackLayout>
                         </StackLayout>
 
