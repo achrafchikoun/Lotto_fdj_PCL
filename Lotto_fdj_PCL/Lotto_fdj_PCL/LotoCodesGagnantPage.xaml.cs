@@ -22,21 +22,20 @@ namespace Lotto_fdj_PCL
         {
             InitializeComponent();
 
-            GlobalVariable.count++;
-
-            if (GlobalVariable.count == 4)
+            Device.BeginInvokeOnMainThread(() =>
             {
-                GlobalVariable.count = 0;
-
-                Device.BeginInvokeOnMainThread(() =>
+                GlobalVariable.count++;
+                if (GlobalVariable.count == 4)
                 {
-                    callAPI();
+                    GlobalVariable.count = 0;
 
-                    IAdInterstitial adInterstitial = DependencyService.Get<IAdInterstitial>();
+                    adInterstitial = DependencyService.Get<IAdInterstitial>();
 
                     adInterstitial.ShowAd();
-                });
-            }
+                }
+
+                callAPI();
+            });
         }
 
         private async Task callAPI()
