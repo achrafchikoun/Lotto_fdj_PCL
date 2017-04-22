@@ -14,18 +14,18 @@
                 <Frame Padding="1, 5, 1, 1" BackgroundColor="#dddddd">
                     <StackLayout Orientation="Vertical" BackgroundColor="White">
                         <StackLayout Orientation="Horizontal" HeightRequest="50" Padding="5">
-                            <Image Source="loto.png" Aspect="AspectFit" WidthRequest="110" VerticalOptions="Center" HorizontalOptions="Start" />
-                            <Label x:Name="loto_tirage_du" Text="Mercredi 12 Avril 2017" FontSize="15" VerticalOptions="Center" HorizontalOptions="EndAndExpand" HorizontalTextAlignment="End"/>
+                            <Image Source="loto.png" Aspect="AspectFit" WidthRequest="90" VerticalOptions="Center" HorizontalOptions="Start" />
+                            <Label x:Name="loto_tirage_du" Text="Mercredi 12 Avril 2017" FontSize="14" VerticalOptions="Center" HorizontalOptions="EndAndExpand" HorizontalTextAlignment="End"/>
                         </StackLayout>
                         <BoxView HeightRequest="1" BackgroundColor="#dddddd" HorizontalOptions="FillAndExpand" Margin="5, 0, 5, 0"/>
                         <StackLayout Orientation="Horizontal" Margin="3, 10, 3, 10" HorizontalOptions="Center">
-                            <Label x:Name="loto_n1" Text="-" TextColor="White" FontSize="20" FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" WidthRequest="35" HeightRequest="35" BackgroundColor="#243f85"/>
-                            <Label x:Name="loto_n2" Text="-" TextColor="White" FontSize="20" FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" WidthRequest="35" HeightRequest="35" BackgroundColor="#243f85" Margin="3, 0, 0, 0"/>
-                            <Label x:Name="loto_n3" Text="-" TextColor="White" FontSize="20" FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" WidthRequest="35" HeightRequest="35" BackgroundColor="#243f85" Margin="3, 0, 0, 0"/>
-                            <Label x:Name="loto_n4" Text="-" TextColor="White" FontSize="20" FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" WidthRequest="35" HeightRequest="35" BackgroundColor="#243f85" Margin="3, 0, 0, 0"/>
-                            <Label x:Name="loto_n5" Text="-" TextColor="White" FontSize="20" FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" WidthRequest="35" HeightRequest="35" BackgroundColor="#243f85" Margin="3, 0, 0, 0"/>
+                            <Label x:Name="loto_n1" Text="-" TextColor="White" FontSize="18" FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" WidthRequest="32" HeightRequest="32" BackgroundColor="#243f85"/>
+                            <Label x:Name="loto_n2" Text="-" TextColor="White" FontSize="18" FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" WidthRequest="32" HeightRequest="32" BackgroundColor="#243f85" Margin="3, 0, 0, 0"/>
+                            <Label x:Name="loto_n3" Text="-" TextColor="White" FontSize="18" FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" WidthRequest="32" HeightRequest="32" BackgroundColor="#243f85" Margin="3, 0, 0, 0"/>
+                            <Label x:Name="loto_n4" Text="-" TextColor="White" FontSize="18" FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" WidthRequest="32" HeightRequest="32" BackgroundColor="#243f85" Margin="3, 0, 0, 0"/>
+                            <Label x:Name="loto_n5" Text="-" TextColor="White" FontSize="18" FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" WidthRequest="32" HeightRequest="32" BackgroundColor="#243f85" Margin="3, 0, 0, 0"/>
                             <Image Source="num_chance.png" Aspect="AspectFit" WidthRequest="50"/>
-                            <Label x:Name="loto_n6" Text="-" TextColor="White" FontSize="20" FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" WidthRequest="35" HeightRequest="35" BackgroundColor="#d82f34" Margin="3, 0, 0, 0"/>
+                            <Label x:Name="loto_n6" Text="-" TextColor="White" FontSize="18" FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" WidthRequest="32" HeightRequest="32" BackgroundColor="#d82f34" Margin="3, 0, 0, 0"/>
                         </StackLayout>
                         <StackLayout Orientation="Horizontal" Margin="5, 10, 5, 10" HorizontalOptions="Center">
                             <Label Text="JOKER+® :" TextColor="#243f85" FontSize="16" VerticalOptions="Center" Margin="0, 0, 5, 0"/>
@@ -54,20 +54,20 @@
                 <Frame Padding="1, 5, 1, 1" BackgroundColor="#dddddd" Margin="0, 15, 0, 0">
                     <StackLayout Orientation="Vertical" BackgroundColor="White">
                         <StackLayout Orientation="Horizontal" HeightRequest="50" Padding="5">
-                            <Image Source="euromillions.png" Aspect="AspectFit" WidthRequest="110" HorizontalOptions="Start" />
+                            <Image Source="euromillions.png" Aspect="AspectFit" WidthRequest="90" HorizontalOptions="Start" />
                             <StackLayout Orientation="Horizontal" HorizontalOptions="EndAndExpand">
-                                <Label x:Name="euromillions_tirage_du" Text="Mercredi 12 Avril 2017" FontSize="15" HorizontalOptions="Start" VerticalOptions="Center"/>
+                                <Label x:Name="euromillions_tirage_du" Text="Mercredi 12 Avril 2017" FontSize="14" HorizontalOptions="Start" VerticalOptions="Center"/>
                             </StackLayout>
                         </StackLayout>
                         <BoxView HeightRequest="1" BackgroundColor="#dddddd" HorizontalOptions="FillAndExpand" Margin="5, 0, 5, 0"/>
                         <StackLayout Orientation="Horizontal" Margin="3, 10, 3, 10" HorizontalOptions="Center">
-                            <Label x:Name="euromillions_n1" Text="-" TextColor="White" FontSize="20" FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" WidthRequest="35" HeightRequest="35" BackgroundColor="#243f85"/>
-                            <Label x:Name="euromillions_n2" Text="-" TextColor="White" FontSize="20" FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" WidthRequest="35" HeightRequest="35" BackgroundColor="#243f85" Margin="3, 0, 0, 0"/>
-                            <Label x:Name="euromillions_n3" Text="-" TextColor="White" FontSize="20" FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" WidthRequest="35" HeightRequest="35" BackgroundColor="#243f85" Margin="3, 0, 0, 0"/>
-                            <Label x:Name="euromillions_n4" Text="-" TextColor="White" FontSize="20" FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" WidthRequest="35" HeightRequest="35" BackgroundColor="#243f85" Margin="3, 0, 0, 0"/>
-                            <Label x:Name="euromillions_n5" Text="-" TextColor="White" FontSize="20" FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" WidthRequest="35" HeightRequest="35" BackgroundColor="#243f85" Margin="3, 0, 0, 0"/>
-                            <Label x:Name="euromillions_n6" Text="-" TextColor="White" FontSize="20" FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" WidthRequest="35" HeightRequest="35" BackgroundColor="#f6b220" Margin="6, 0, 0, 0"/>
-                            <Label x:Name="euromillions_n7" Text="-" TextColor="White" FontSize="20" FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" WidthRequest="35" HeightRequest="35" BackgroundColor="#f6b220" Margin="3, 0, 0, 0"/>
+                            <Label x:Name="euromillions_n1" Text="-" TextColor="White" FontSize="18" FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" WidthRequest="32" HeightRequest="32" BackgroundColor="#243f85"/>
+                            <Label x:Name="euromillions_n2" Text="-" TextColor="White" FontSize="18" FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" WidthRequest="32" HeightRequest="32" BackgroundColor="#243f85" Margin="3, 0, 0, 0"/>
+                            <Label x:Name="euromillions_n3" Text="-" TextColor="White" FontSize="18" FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" WidthRequest="32" HeightRequest="32" BackgroundColor="#243f85" Margin="3, 0, 0, 0"/>
+                            <Label x:Name="euromillions_n4" Text="-" TextColor="White" FontSize="18" FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" WidthRequest="32" HeightRequest="32" BackgroundColor="#243f85" Margin="3, 0, 0, 0"/>
+                            <Label x:Name="euromillions_n5" Text="-" TextColor="White" FontSize="18" FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" WidthRequest="32" HeightRequest="32" BackgroundColor="#243f85" Margin="3, 0, 0, 0"/>
+                            <Label x:Name="euromillions_n6" Text="-" TextColor="White" FontSize="18" FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" WidthRequest="32" HeightRequest="32" BackgroundColor="#f6b220" Margin="6, 0, 0, 0"/>
+                            <Label x:Name="euromillions_n7" Text="-" TextColor="White" FontSize="18" FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" WidthRequest="32" HeightRequest="32" BackgroundColor="#f6b220" Margin="3, 0, 0, 0"/>
                         </StackLayout>
                         <StackLayout Orientation="Horizontal" Margin="5, 10, 5, 10" HorizontalOptions="Center">
                             <Label Text="MY MILLION :" TextColor="#243f85" FontSize="16" VerticalOptions="Center" Margin="0, 0, 5, 0"/>
@@ -93,9 +93,9 @@
                 <Frame Padding="1, 5, 1, 1" BackgroundColor="#dddddd" Margin="0, 15, 0, 0">
                     <StackLayout Orientation="Vertical" BackgroundColor="White">
                         <StackLayout Orientation="Horizontal" HeightRequest="50" Padding="5">
-                            <Image Source="keno.png" Aspect="AspectFit" WidthRequest="100" HorizontalOptions="Start" />
+                            <Image Source="keno.png" Aspect="AspectFit" WidthRequest="80" HorizontalOptions="Start" />
                             <StackLayout Orientation="Horizontal" HorizontalOptions="EndAndExpand">
-                                <Label x:Name="keno_tirage_du" Text="Tirage du jeudi 13 avril - Midi" FontSize="14" HorizontalOptions="Start" VerticalOptions="Center"/>
+                                <Label x:Name="keno_tirage_du" Text="Tirage du jeudi 13 avril - Midi" FontSize="13" HorizontalOptions="Start" VerticalOptions="Center"/>
                             </StackLayout>
                         </StackLayout>
                         <BoxView HeightRequest="1" BackgroundColor="#dddddd" HorizontalOptions="FillAndExpand" Margin="5, 0, 5, 0"/>
@@ -106,32 +106,32 @@
                             </Frame>
                         </StackLayout>
                         <StackLayout Orientation="Horizontal" Margin="3, 10, 3, 10" HorizontalOptions="Center">
-                            <Label x:Name="keno_n1" Text="-" TextColor="White" FontSize="20" FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" WidthRequest="35" HeightRequest="35" BackgroundColor="#243f85"/>
-                            <Label x:Name="keno_n2" Text="-" TextColor="White" FontSize="20" FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" WidthRequest="35" HeightRequest="35" BackgroundColor="#243f85" Margin="3, 0, 0, 0"/>
-                            <Label x:Name="keno_n3" Text="-" TextColor="White" FontSize="20" FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" WidthRequest="35" HeightRequest="35" BackgroundColor="#243f85" Margin="3, 0, 0, 0"/>
-                            <Label x:Name="keno_n4" Text="-" TextColor="White" FontSize="20" FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" WidthRequest="35" HeightRequest="35" BackgroundColor="#243f85" Margin="3, 0, 0, 0"/>
-                            <Label x:Name="keno_n5" Text="-" TextColor="White" FontSize="20" FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" WidthRequest="35" HeightRequest="35" BackgroundColor="#243f85" Margin="3, 0, 0, 0"/>
+                            <Label x:Name="keno_n1" Text="-" TextColor="White" FontSize="18" FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" WidthRequest="32" HeightRequest="32" BackgroundColor="#243f85"/>
+                            <Label x:Name="keno_n2" Text="-" TextColor="White" FontSize="18" FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" WidthRequest="32" HeightRequest="32" BackgroundColor="#243f85" Margin="3, 0, 0, 0"/>
+                            <Label x:Name="keno_n3" Text="-" TextColor="White" FontSize="18" FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" WidthRequest="32" HeightRequest="32" BackgroundColor="#243f85" Margin="3, 0, 0, 0"/>
+                            <Label x:Name="keno_n4" Text="-" TextColor="White" FontSize="18" FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" WidthRequest="32" HeightRequest="32" BackgroundColor="#243f85" Margin="3, 0, 0, 0"/>
+                            <Label x:Name="keno_n5" Text="-" TextColor="White" FontSize="18" FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" WidthRequest="32" HeightRequest="32" BackgroundColor="#243f85" Margin="3, 0, 0, 0"/>
                         </StackLayout>
                         <StackLayout Orientation="Horizontal" Margin="3, 10, 3, 10" HorizontalOptions="Center">
-                            <Label x:Name="keno_n6" Text="-" TextColor="White" FontSize="20" FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" WidthRequest="35" HeightRequest="35" BackgroundColor="#243f85"/>
-                            <Label x:Name="keno_n7" Text="-" TextColor="White" FontSize="20" FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" WidthRequest="35" HeightRequest="35" BackgroundColor="#243f85" Margin="3, 0, 0, 0"/>
-                            <Label x:Name="keno_n8" Text="-" TextColor="White" FontSize="20" FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" WidthRequest="35" HeightRequest="35" BackgroundColor="#243f85" Margin="3, 0, 0, 0"/>
-                            <Label x:Name="keno_n9" Text="-" TextColor="White" FontSize="20" FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" WidthRequest="35" HeightRequest="35" BackgroundColor="#243f85" Margin="3, 0, 0, 0"/>
-                            <Label x:Name="keno_n10" Text="-" TextColor="White" FontSize="20" FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" WidthRequest="35" HeightRequest="35" BackgroundColor="#243f85" Margin="3, 0, 0, 0"/>
+                            <Label x:Name="keno_n6" Text="-" TextColor="White" FontSize="18" FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" WidthRequest="32" HeightRequest="32" BackgroundColor="#243f85"/>
+                            <Label x:Name="keno_n7" Text="-" TextColor="White" FontSize="18" FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" WidthRequest="32" HeightRequest="32" BackgroundColor="#243f85" Margin="3, 0, 0, 0"/>
+                            <Label x:Name="keno_n8" Text="-" TextColor="White" FontSize="18" FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" WidthRequest="32" HeightRequest="32" BackgroundColor="#243f85" Margin="3, 0, 0, 0"/>
+                            <Label x:Name="keno_n9" Text="-" TextColor="White" FontSize="18" FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" WidthRequest="32" HeightRequest="32" BackgroundColor="#243f85" Margin="3, 0, 0, 0"/>
+                            <Label x:Name="keno_n10" Text="-" TextColor="White" FontSize="18" FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" WidthRequest="32" HeightRequest="32" BackgroundColor="#243f85" Margin="3, 0, 0, 0"/>
                         </StackLayout>
                         <StackLayout Orientation="Horizontal" Margin="3, 10, 3, 10" HorizontalOptions="Center">
-                            <Label x:Name="keno_n11" Text="-" TextColor="White" FontSize="20" FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" WidthRequest="35" HeightRequest="35" BackgroundColor="#243f85"/>
-                            <Label x:Name="keno_n12" Text="-" TextColor="White" FontSize="20" FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" WidthRequest="35" HeightRequest="35" BackgroundColor="#243f85" Margin="3, 0, 0, 0"/>
-                            <Label x:Name="keno_n13" Text="-" TextColor="White" FontSize="20" FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" WidthRequest="35" HeightRequest="35" BackgroundColor="#243f85" Margin="3, 0, 0, 0"/>
-                            <Label x:Name="keno_n14" Text="-" TextColor="White" FontSize="20" FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" WidthRequest="35" HeightRequest="35" BackgroundColor="#243f85" Margin="3, 0, 0, 0"/>
-                            <Label x:Name="keno_n15" Text="-" TextColor="White" FontSize="20" FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" WidthRequest="35" HeightRequest="35" BackgroundColor="#243f85" Margin="3, 0, 0, 0"/>
+                            <Label x:Name="keno_n11" Text="-" TextColor="White" FontSize="18" FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" WidthRequest="32" HeightRequest="32" BackgroundColor="#243f85"/>
+                            <Label x:Name="keno_n12" Text="-" TextColor="White" FontSize="18" FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" WidthRequest="32" HeightRequest="32" BackgroundColor="#243f85" Margin="3, 0, 0, 0"/>
+                            <Label x:Name="keno_n13" Text="-" TextColor="White" FontSize="18" FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" WidthRequest="32" HeightRequest="32" BackgroundColor="#243f85" Margin="3, 0, 0, 0"/>
+                            <Label x:Name="keno_n14" Text="-" TextColor="White" FontSize="18" FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" WidthRequest="32" HeightRequest="32" BackgroundColor="#243f85" Margin="3, 0, 0, 0"/>
+                            <Label x:Name="keno_n15" Text="-" TextColor="White" FontSize="18" FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" WidthRequest="32" HeightRequest="32" BackgroundColor="#243f85" Margin="3, 0, 0, 0"/>
                         </StackLayout>
                         <StackLayout Orientation="Horizontal" Margin="3, 10, 3, 10" HorizontalOptions="Center">
-                            <Label x:Name="keno_n16" Text="-" TextColor="White" FontSize="20" FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" WidthRequest="35" HeightRequest="35" BackgroundColor="#243f85"/>
-                            <Label x:Name="keno_n17" Text="-" TextColor="White" FontSize="20" FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" WidthRequest="35" HeightRequest="35" BackgroundColor="#243f85" Margin="3, 0, 0, 0"/>
-                            <Label x:Name="keno_n18" Text="-" TextColor="White" FontSize="20" FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" WidthRequest="35" HeightRequest="35" BackgroundColor="#243f85" Margin="3, 0, 0, 0"/>
-                            <Label x:Name="keno_n19" Text="-" TextColor="White" FontSize="20" FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" WidthRequest="35" HeightRequest="35" BackgroundColor="#243f85" Margin="3, 0, 0, 0"/>
-                            <Label x:Name="keno_n20" Text="-" TextColor="White" FontSize="20" FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" WidthRequest="35" HeightRequest="35" BackgroundColor="#243f85" Margin="3, 0, 0, 0"/>
+                            <Label x:Name="keno_n16" Text="-" TextColor="White" FontSize="18" FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" WidthRequest="32" HeightRequest="32" BackgroundColor="#243f85"/>
+                            <Label x:Name="keno_n17" Text="-" TextColor="White" FontSize="18" FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" WidthRequest="32" HeightRequest="32" BackgroundColor="#243f85" Margin="3, 0, 0, 0"/>
+                            <Label x:Name="keno_n18" Text="-" TextColor="White" FontSize="18" FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" WidthRequest="32" HeightRequest="32" BackgroundColor="#243f85" Margin="3, 0, 0, 0"/>
+                            <Label x:Name="keno_n19" Text="-" TextColor="White" FontSize="18" FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" WidthRequest="32" HeightRequest="32" BackgroundColor="#243f85" Margin="3, 0, 0, 0"/>
+                            <Label x:Name="keno_n20" Text="-" TextColor="White" FontSize="18" FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" WidthRequest="32" HeightRequest="32" BackgroundColor="#243f85" Margin="3, 0, 0, 0"/>
                         </StackLayout>
                         <BoxView HeightRequest="1" BackgroundColor="#dddddd" HorizontalOptions="FillAndExpand" Margin="5, 0, 5, 0"/>
                         <StackLayout Orientation="Horizontal" Margin="5, 10, 5, 15">
@@ -146,20 +146,20 @@
                 <Frame Padding="1, 5, 1, 1" BackgroundColor="#dddddd" Margin="0, 15, 0, 0">
                     <StackLayout Orientation="Vertical" BackgroundColor="White">
                         <StackLayout Orientation="Horizontal" HeightRequest="50" Padding="5">
-                            <Image Source="joker.png" Aspect="AspectFit" WidthRequest="100" HorizontalOptions="Start" />
+                            <Image Source="joker.png" Aspect="AspectFit" WidthRequest="90" HorizontalOptions="Start" />
                             <StackLayout Orientation="Horizontal" HorizontalOptions="EndAndExpand">
                                 <Label x:Name="joker_tirage_du" Text="Mercredi 12 Avril - Tirage 1" FontSize="14" HorizontalOptions="Start" VerticalOptions="Center"/>
                             </StackLayout>
                         </StackLayout>
                         <BoxView HeightRequest="1" BackgroundColor="#dddddd" HorizontalOptions="FillAndExpand" Margin="5, 0, 5, 0"/>
                         <StackLayout Orientation="Horizontal" Margin="3, 10, 3, 10" HorizontalOptions="Center">
-                            <Label x:Name="joker_n1" Text="-" TextColor="White" FontSize="20" FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" WidthRequest="35" HeightRequest="35" BackgroundColor="#243f85"/>
-                            <Label x:Name="joker_n2" Text="-" TextColor="White" FontSize="20" FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" WidthRequest="35" HeightRequest="35" BackgroundColor="#243f85" Margin="3, 0, 0, 0"/>
-                            <Label x:Name="joker_n3" Text="-" TextColor="White" FontSize="20" FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" WidthRequest="35" HeightRequest="35" BackgroundColor="#243f85" Margin="3, 0, 0, 0"/>
-                            <Label x:Name="joker_n4" Text="-" TextColor="White" FontSize="20" FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" WidthRequest="35" HeightRequest="35" BackgroundColor="#243f85" Margin="3, 0, 0, 0"/>
-                            <Label x:Name="joker_n5" Text="-" TextColor="White" FontSize="20" FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" WidthRequest="35" HeightRequest="35" BackgroundColor="#243f85" Margin="3, 0, 0, 0"/>
-                            <Label x:Name="joker_n6" Text="-" TextColor="White" FontSize="20" FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" WidthRequest="35" HeightRequest="35" BackgroundColor="#243f85" Margin="6, 0, 0, 0"/>
-                            <Label x:Name="joker_n7" Text="-" TextColor="White" FontSize="20" FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" WidthRequest="35" HeightRequest="35" BackgroundColor="#243f85" Margin="3, 0, 0, 0"/>
+                            <Label x:Name="joker_n1" Text="-" TextColor="White" FontSize="18" FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" WidthRequest="32" HeightRequest="32" BackgroundColor="#243f85"/>
+                            <Label x:Name="joker_n2" Text="-" TextColor="White" FontSize="18" FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" WidthRequest="32" HeightRequest="32" BackgroundColor="#243f85" Margin="3, 0, 0, 0"/>
+                            <Label x:Name="joker_n3" Text="-" TextColor="White" FontSize="18" FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" WidthRequest="32" HeightRequest="32" BackgroundColor="#243f85" Margin="3, 0, 0, 0"/>
+                            <Label x:Name="joker_n4" Text="-" TextColor="White" FontSize="18" FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" WidthRequest="32" HeightRequest="32" BackgroundColor="#243f85" Margin="3, 0, 0, 0"/>
+                            <Label x:Name="joker_n5" Text="-" TextColor="White" FontSize="18" FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" WidthRequest="32" HeightRequest="32" BackgroundColor="#243f85" Margin="3, 0, 0, 0"/>
+                            <Label x:Name="joker_n6" Text="-" TextColor="White" FontSize="18" FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" WidthRequest="32" HeightRequest="32" BackgroundColor="#243f85" Margin="6, 0, 0, 0"/>
+                            <Label x:Name="joker_n7" Text="-" TextColor="White" FontSize="18" FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" WidthRequest="32" HeightRequest="32" BackgroundColor="#243f85" Margin="3, 0, 0, 0"/>
                         </StackLayout>
                         <BoxView HeightRequest="1" BackgroundColor="#dddddd" HorizontalOptions="FillAndExpand" Margin="5, 0, 5, 0"/>
                         <StackLayout Orientation="Horizontal" Margin="5, 10, 5, 15">

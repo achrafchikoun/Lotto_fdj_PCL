@@ -1,10 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26228.9
+VisualStudioVersion = 15.0.26228.12
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lotto_fdj_PCL.Android", "Lotto_fdj_PCL\Lotto_fdj_PCL.Android\Lotto_fdj_PCL.Android.csproj", "{8E13AE03-76CC-4A6E-8F9D-432EBD8AB7DC}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lotto_fdj_PCL", "Lotto_fdj_PCL\Lotto_fdj_PCL\Lotto_fdj_PCL.csproj", "{507DCC7D-F215-43C2-83BF-E0F570513743}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lotto_fdj_PCL.iOS", "Lotto_fdj_PCL\Lotto_fdj_PCL.iOS\Lotto_fdj_PCL.iOS.csproj", "{90D59E6D-5252-4FB3-8E80-B59C6E917EAC}"
@@ -25,42 +23,6 @@ Global
 		Release|iPhoneSimulator = Release|iPhoneSimulator
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{8E13AE03-76CC-4A6E-8F9D-432EBD8AB7DC}.Ad-Hoc|Any CPU.ActiveCfg = Release|Any CPU
-		{8E13AE03-76CC-4A6E-8F9D-432EBD8AB7DC}.Ad-Hoc|Any CPU.Build.0 = Release|Any CPU
-		{8E13AE03-76CC-4A6E-8F9D-432EBD8AB7DC}.Ad-Hoc|Any CPU.Deploy.0 = Release|Any CPU
-		{8E13AE03-76CC-4A6E-8F9D-432EBD8AB7DC}.Ad-Hoc|iPhone.ActiveCfg = Release|Any CPU
-		{8E13AE03-76CC-4A6E-8F9D-432EBD8AB7DC}.Ad-Hoc|iPhone.Build.0 = Release|Any CPU
-		{8E13AE03-76CC-4A6E-8F9D-432EBD8AB7DC}.Ad-Hoc|iPhone.Deploy.0 = Release|Any CPU
-		{8E13AE03-76CC-4A6E-8F9D-432EBD8AB7DC}.Ad-Hoc|iPhoneSimulator.ActiveCfg = Release|Any CPU
-		{8E13AE03-76CC-4A6E-8F9D-432EBD8AB7DC}.Ad-Hoc|iPhoneSimulator.Build.0 = Release|Any CPU
-		{8E13AE03-76CC-4A6E-8F9D-432EBD8AB7DC}.Ad-Hoc|iPhoneSimulator.Deploy.0 = Release|Any CPU
-		{8E13AE03-76CC-4A6E-8F9D-432EBD8AB7DC}.AppStore|Any CPU.ActiveCfg = Release|Any CPU
-		{8E13AE03-76CC-4A6E-8F9D-432EBD8AB7DC}.AppStore|Any CPU.Build.0 = Release|Any CPU
-		{8E13AE03-76CC-4A6E-8F9D-432EBD8AB7DC}.AppStore|Any CPU.Deploy.0 = Release|Any CPU
-		{8E13AE03-76CC-4A6E-8F9D-432EBD8AB7DC}.AppStore|iPhone.ActiveCfg = Release|Any CPU
-		{8E13AE03-76CC-4A6E-8F9D-432EBD8AB7DC}.AppStore|iPhone.Build.0 = Release|Any CPU
-		{8E13AE03-76CC-4A6E-8F9D-432EBD8AB7DC}.AppStore|iPhone.Deploy.0 = Release|Any CPU
-		{8E13AE03-76CC-4A6E-8F9D-432EBD8AB7DC}.AppStore|iPhoneSimulator.ActiveCfg = Release|Any CPU
-		{8E13AE03-76CC-4A6E-8F9D-432EBD8AB7DC}.AppStore|iPhoneSimulator.Build.0 = Release|Any CPU
-		{8E13AE03-76CC-4A6E-8F9D-432EBD8AB7DC}.AppStore|iPhoneSimulator.Deploy.0 = Release|Any CPU
-		{8E13AE03-76CC-4A6E-8F9D-432EBD8AB7DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8E13AE03-76CC-4A6E-8F9D-432EBD8AB7DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8E13AE03-76CC-4A6E-8F9D-432EBD8AB7DC}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
-		{8E13AE03-76CC-4A6E-8F9D-432EBD8AB7DC}.Debug|iPhone.ActiveCfg = Debug|Any CPU
-		{8E13AE03-76CC-4A6E-8F9D-432EBD8AB7DC}.Debug|iPhone.Build.0 = Debug|Any CPU
-		{8E13AE03-76CC-4A6E-8F9D-432EBD8AB7DC}.Debug|iPhone.Deploy.0 = Debug|Any CPU
-		{8E13AE03-76CC-4A6E-8F9D-432EBD8AB7DC}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
-		{8E13AE03-76CC-4A6E-8F9D-432EBD8AB7DC}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
-		{8E13AE03-76CC-4A6E-8F9D-432EBD8AB7DC}.Debug|iPhoneSimulator.Deploy.0 = Debug|Any CPU
-		{8E13AE03-76CC-4A6E-8F9D-432EBD8AB7DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8E13AE03-76CC-4A6E-8F9D-432EBD8AB7DC}.Release|Any CPU.Build.0 = Release|Any CPU
-		{8E13AE03-76CC-4A6E-8F9D-432EBD8AB7DC}.Release|Any CPU.Deploy.0 = Release|Any CPU
-		{8E13AE03-76CC-4A6E-8F9D-432EBD8AB7DC}.Release|iPhone.ActiveCfg = Release|Any CPU
-		{8E13AE03-76CC-4A6E-8F9D-432EBD8AB7DC}.Release|iPhone.Build.0 = Release|Any CPU
-		{8E13AE03-76CC-4A6E-8F9D-432EBD8AB7DC}.Release|iPhone.Deploy.0 = Release|Any CPU
-		{8E13AE03-76CC-4A6E-8F9D-432EBD8AB7DC}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
-		{8E13AE03-76CC-4A6E-8F9D-432EBD8AB7DC}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
-		{8E13AE03-76CC-4A6E-8F9D-432EBD8AB7DC}.Release|iPhoneSimulator.Deploy.0 = Release|Any CPU
 		{507DCC7D-F215-43C2-83BF-E0F570513743}.Ad-Hoc|Any CPU.ActiveCfg = Release|Any CPU
 		{507DCC7D-F215-43C2-83BF-E0F570513743}.Ad-Hoc|Any CPU.Build.0 = Release|Any CPU
 		{507DCC7D-F215-43C2-83BF-E0F570513743}.Ad-Hoc|iPhone.ActiveCfg = Release|Any CPU

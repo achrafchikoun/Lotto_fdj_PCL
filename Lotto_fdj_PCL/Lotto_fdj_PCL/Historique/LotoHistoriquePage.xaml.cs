@@ -24,17 +24,20 @@ namespace Lotto_fdj_PCL.Historique
         {
             InitializeComponent();
 
-            GlobalVariable.count++;
-            if (GlobalVariable.count == 4)
+            Device.BeginInvokeOnMainThread(() =>
             {
-                GlobalVariable.count = 0;
+                GlobalVariable.count++;
+                if (GlobalVariable.count == 4)
+                {
+                    GlobalVariable.count = 0;
 
-                adInterstitial = DependencyService.Get<IAdInterstitial>();
+                    adInterstitial = DependencyService.Get<IAdInterstitial>();
 
-                adInterstitial.ShowAd();
-            }
+                    adInterstitial.ShowAd();
+                }
 
-            callAPI();
+                callAPI();
+            });
         }
 
         private async Task callAPI()
